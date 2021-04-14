@@ -9,8 +9,6 @@ def home():
     return render_template("test2.html")
 
 
-
-
 @app.route('/eventpage/')
 def eventpage():
     return render_template("eventpage.html")
